@@ -1,1 +1,0 @@
-# Post-Binary-Ugrade-idea_chip-comp.-6GenerationNet
