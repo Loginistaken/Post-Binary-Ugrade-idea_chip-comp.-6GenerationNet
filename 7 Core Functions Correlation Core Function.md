@@ -1,4 +1,5 @@
-PC-ASIC-II / Post-Binary Upgrade system and how it addresses your requested topics. Step by step to correlate it with the
+PC-ASIC-II / Post-Binary Upgrade system 
+Step by step to correlate it with the
 7 core quantum-photonic functions, explain the polaritonic concept, and detail the frequency-to-frequency 
 low-latency mechanisms, 26-bin operation, and backward compatibility.
 
