@@ -285,7 +285,9 @@ New defenses become possible
 
 9️⃣ One-sentence synthesis
 
-A crypto coin built natively on a 26-symbol, 4.7-bit post-binary system would not merely be faster; it would introduce symbol-level entropy, spin-aware physical constraints, and human-legible interaction models that alter mining, security, and consensus dynamics in ways that binary blockchains cannot easily replicate.1️⃣ The real revolution: redefine the atomic unit of value
+A crypto coin built natively on a 26-symbol, 4.7-bit post-binary system would not merely be faster; it would introduce symbol-level entropy, spin-aware physical constraints, and human-legible interaction models that alter mining, security, and consensus dynamics in ways that binary blockchains cannot easily replicate.                                                                                                           
+
+1️⃣ The real revolution: redefine the atomic unit of value
 From:
 
 1 coin = number stored in a binary ledger
