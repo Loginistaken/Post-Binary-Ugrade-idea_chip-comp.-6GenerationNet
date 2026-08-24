@@ -362,285 +362,79 @@ Paragraph 22 — Multi-Node Coordination Is Now Hybrid
 The original concept stated that multiple EL-40 nodes could coordinate without traffic. The upgraded version should make a more precise claim: some coordination can be performed through shared timing, phase, configuration state, and local observation rather than explicit application-level messaging, while normal network traffic still exists. EL-40 therefore reduces unnecessary coordination traffic without pretending that packets have disappeared. This is a much stronger engineering interpretation of the original idea.
 
 Paragraph 23 — The New EL-40 Architecture
-
 The complete upgraded control stack becomes:
-
-
-
 Application / Media / Legacy Device
-
-
-
 ↓
-
-
-
 PBUA Universal Adapter
-
-
-
 ↓
-
-
-
 Generation & Capability Detection
-
-
-
 ↓
-
-
-
 EL-40 8G Control Plane
-
-
-
 ↓
-
-
-
 RADIX Engine
-
-
-
 ↓
-
-
-
 A–Z Wavelength Scheduler
-
-
-
 ↓
-
-
-
 PAM-4/PAM-8 Controller
-
-
-
 ↓
-
-
-
 FEC Controller
-
-
-
 ↓
-
-
-
 Photonic/Polaritonic Routing
-
-
-
 ↓
-
-
-
 Thermal + Wavelength Stabilization
-
-
-
 ↓
-
-
-
 Optical Receiver
-
-
-
 ↓
-
-
-
 RADIX Reconstruction
-
-
-
 ↓
-
-
-
 Hardware Timestamp Engine
-
-
-
 ↓
-
-
-
 Audio/Video Synchronization
-
-
-
 ↓
-
-
-
 Legacy Output / Display / Audio / Network
-
 Paragraph 24 — The New EL-40 Operating Logic
-
 The upgraded EL-40 can be represented conceptually by the following control sequence:
-
 INITIALIZE PBUA
-
-
-
 detect_interface()
-
-
-
 detect_generation()
-
-
-
 negotiate_capabilities()
-
-
-
 if legacy_binary:
-
-
-
     enable_binary_translation()
-
-
-
 if hybrid_photonic:
-
-
-
     enable_hybrid_transport()
-
-
 
 if native_PBUA:
 
-
-
     enable_AZ_RADIX_WDM()
-
-
-
 measure(
-
-
-
     wavelength,
-
-
-
     phase,
-
-
-
     PAM_quality,
-
-
-
     SNR,
-
-
-
     FEC_rate,
-
-
-
     temperature,
-
-
-
     buffer_depth,
-
-
-
     latency,
-
-
-
     AV_clock_offset
-
-
-
 )
-
-
-
 select(
-
-
-
     RADIX_mode,
-
-
-
     wavelength_map,
-
-
-
     PAM4_or_PAM8,
-
-
-
     FEC_profile,
-
-
-
     traffic_priority
-
-
-
 )
-
-
-
 transmit()
-
-
-
 timestamp()
-
-
-
 verify()
-
-
-
 if channel_degrades:
-
-
-
     reduce_PAM_complexity()
-
-
-
     increase_FEC()
-
-
-
     redistribute_wavelengths()
-
-
-
     invoke_fallback_if_required()
-
-
-
 synchronize_audio_video()
-
-
-
 reconstruct()
-
-
-
 deliver()
-
-
-
 learn_and_predict_next_state()
 
 
