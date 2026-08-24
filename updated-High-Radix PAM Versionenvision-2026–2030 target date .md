@@ -1,4 +1,4 @@
-The Updated Post-Binary A–Z Photonic System (2026–2030 High-Radix PAM Version)
+The Updated Post-Binary A–Z Photonic System High-Radix PAM Version(Envision a 2026–2030 target date))
 A complete, practical redesign that keeps the original vision while making it realistic, lower-toxicity, 
 and higher-performance.Imagine a computer network that no longer speaks only in simple yes/no (0 and 1) 
 but instead uses a full alphabet of 26 different colors of light. Each color carries several shades of brightness, 
