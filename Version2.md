@@ -306,10 +306,8 @@ lower material-hazard and scarcity burden relative to the earlier
 proposed architecture, while retaining practical photonic functionality.
 THE UPDATED POST-BINARY A–Z PHOTONIC SYSTEM
 
-High-Radix PAM / PBUA Dual-Domain Edition
-
-2026–2030 Build-Me-Phase Concept
-
+PART 2 PART1 (CONTINUED BELOW)
+ 
   STATUS: CONCEPTUAL / IN BUILD-ME PHASE. This document defines a
   proposed photonic architecture. The component technologies exist, but
   the complete 26-channel A–Z implementation, EL-40 integration,
