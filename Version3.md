@@ -1634,3 +1634,5 @@ The strongest path toward reality is therefore:
 **The goal is not to claim that the concept is already proven.**
 
 **The goal is to turn the concept into a sequence of experiments that can prove or disprove each layer.**
+
+See Legal page Conceptually developed by.md
